@@ -15,6 +15,26 @@
 -Ownership: The contract has an owner who controls the minting process.
 
 
+## Prerequisites
+Solidity ^0.8.20
+OpenZeppelin Contracts ^5.0.0
+
+
+## Installation
+### Clone the repository: 
+git clone https://github.com/your-repository-link
+cd your-repository-directory
+### Install dependencies: 
+npm install @openzeppelin/contracts
+
+
+## Contract Breakdown:
+### 1. Constructor
+![image](https://github.com/user-attachments/assets/8cd37244-655a-4b9a-a04f-fa35725d2ef8)
+
+
+
+
 ## How It Works
 Deploy the Contract: Deploy with the initial owner’s address.
 Minting: The owner mints tokens to a specified address.
