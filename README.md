@@ -32,28 +32,18 @@ npm install @openzeppelin/contracts
 ### 1. Constructor
 ![image](https://github.com/user-attachments/assets/8cd37244-655a-4b9a-a04f-fa35725d2ef8)
 Purpose: Initializes the token with a name ("Shashwat") and symbol ("SP"). It also sets the initial owner of the contract.
-Parameters:
-initialOwner: The address that will initially own the contract and have the ability to mint new tokens.
+
 ### 2. Minting Tokens
 ![image](https://github.com/user-attachments/assets/caa0341d-d61c-41eb-b0f3-cd83f98e3779)
 Purpose: Allows the owner to mint new tokens and assign them to a specified address.
-Access Control: Only the owner of the contract can call this function.
-Parameters:
-to: The address that will receive the newly minted tokens.
-amount: The number of tokens to mint.
+
 ### 3. Transferring Tokens
 ![image](https://github.com/user-attachments/assets/8fd8ef66-5957-42aa-9f8a-89293f56689e)
 Purpose: Allows token holders to transfer their tokens to another address.
-Parameters:
-to: The address to which tokens will be transferred.
-amount: The number of tokens to transfer.
+
 ### 4.  Burning Tokens
 ![image](https://github.com/user-attachments/assets/ddf033ff-38d1-47d1-8cf9-59d7c9fa4335)
 Purpose: Allows token holders to burn (destroy) their own tokens, reducing the total supply.
-Parameters:
-amount: The number of tokens to burn.
-
-
 
 
 ## How It Works
